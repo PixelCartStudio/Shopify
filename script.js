@@ -701,7 +701,7 @@ const LOGOS = [
   { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/8.png',         url: '' },
   { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/9.png',         url: '' },
   { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/LOGOS (2).png', url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/1.png', url: '' }
+  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/LOGOS (5).png', url: '' }
 ];
 const LOGO_GRID_COUNT = 5; // how many logos go in the grid; the rest go in the slider
 
