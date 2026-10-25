@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#080808" />
+  <meta name="description" content="Shopify portfolio — beautifully built ecommerce stores, crafted to convert." />
+  <title>PIXEL_CART — Shopify Design & Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="section.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell" id="top">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Studio home">[ PIXEL_CART ]</a>
+      <span class="topbar-note">INDEPENDENT SHOPIFY DESIGN & DEVELOPMENT</span>
+      <button class="menu-button" id="menuToggle" aria-expanded="false" aria-controls="siteMenu">[ MENU <span class="menu-mark">+</span> ]</button>
+    </header>
+
+    <nav class="menu-panel" id="siteMenu" aria-label="Main menu" inert>
+      <a href="#projects">Projects <span>01</span></a>
+      <a href="#services">Services <span>02</span></a>
+      <a href="#logos">Logos <span>03</span></a>
+      <a href="#approach">Approach <span>04</span></a>
+      <a href="#contact">Contact <span>05</span></a>
+    </nav>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-brow"><span class="live-dot"></span> AVAILABLE FOR SELECT PROJECTS <span class="hero-index">[ PORTFOLIO / 2026 ]</span></div>
+        <h1 id="heroTitle">WE BUILD<br><span>SHOPIFY</span> STORES<span class="period">.</span></h1>
+        <div class="hero-bottom">
+          <span class="tiny-coordinate">DESIGN-LED.<br>PERFORMANCE-MINDED.</span>
+          <p>Distinctive Shopify experiences for brands that want to stand out, sell more, and grow with confidence.</p>
+          <a href="#projects" class="text-link">EXPLORE WORK <span aria-hidden="true">↘</span></a>
+        </div>
+      </section>
+
+      <!-- ===== 3D PROJECT SHOWCASE ===== -->
+      <section class="projects section" id="projects" aria-labelledby="projectTitle">
+        <div class="section-bar"><h2 id="projectTitle">[ SELECTED PROJECTS ]</h2><span id="projectCount">[ 01 / 06 ]</span></div>
+        <div class="work-heading"><p>Stores, in motion<span class="period">.</span></p><span><span class="hint-desktop">HOVER TO TILT THE STAGE —<br>CLICK ANY STORE TO BRING IT FORWARD.</span><span class="hint-touch">SWIPE OR TAP THE ARROWS —<br>TAP THE FRONT STORE FOR DETAILS.</span></span></div>
+
+        <div class="showcase" id="showcase" aria-roledescription="carousel" aria-label="Selected Shopify projects">
+          <div class="sc-stage" id="scStage">
+            <div class="sc-scene" id="scScene">
+              <div class="sc-floor" aria-hidden="true"></div>
+              <div class="sc-floor sc-floor--inner" aria-hidden="true"><i></i></div>
+              <div class="sc-cards" id="scCards"></div>
+              <div class="sc-phone" aria-hidden="true"><div class="sc-phone-body" id="scPhone"><span class="sc-notch"></span><img id="scPhoneImg" alt=""></div></div>
+              <div class="sc-chip sc-chip--1" aria-hidden="true"><span><i></i><b id="scChip1"></b></span></div>
+              <div class="sc-chip sc-chip--2" aria-hidden="true"><span><i></i><b id="scChip2"></b></span></div>
+              <div class="sc-chip sc-chip--3" aria-hidden="true"><span><b id="scChip3"></b></span></div>
+            </div>
+          </div>
+
+          <div class="sc-info">
+            <div class="sc-text" id="scText" aria-live="off">
+              <span class="sc-meta" id="scMeta"></span>
+              <h3 class="sc-title" id="scTitle"></h3>
+              <span class="sc-services" id="scServices"></span>
+            </div>
+            <div class="sc-dots" id="scDots"></div>
+            <div class="sc-actions">
+              <button class="sc-arrow" id="scPrev" type="button" aria-label="Previous project">←</button>
+              <button class="sc-arrow" id="scNext" type="button" aria-label="Next project">→</button>
+              <a class="sc-visit" id="scVisit" href="#" target="_blank" rel="noopener noreferrer">VISIT LIVE ↗</a>
+            </div>
+          </div>
+          <div class="sc-progress" aria-hidden="true"><i id="scProgress"></i></div>
+        </div>
+
+        <div class="project-outro"><span>EVERY BRAND HAS A STORY. YOUR STORE SHOULD TELL IT.</span><a href="#contact">HAVE A PROJECT IN MIND? ↗</a></div>
+      </section>
+
+      <section class="statement" aria-labelledby="statementTitle">
+        <p class="section-kicker">[ WHAT WE DO ]</p>
+        <h2 id="statementTitle">YOUR PRODUCTS<br>DESERVE A <em>BETTER</em><br>STOREFRONT<span class="period">.</span></h2>
+        <div class="statement-bottom"><p>We bring strategy, design and clean Shopify development together to turn good brands into memorable online shopping experiences.</p><a href="#contact" class="round-arrow" aria-label="Get in touch">↗</a></div>
+      </section>
+
+      <section class="services section" id="services" aria-labelledby="servicesTitle">
+        <div class="section-bar"><h2 id="servicesTitle">[ OUR EXPERTISE ]</h2><span>[ WHAT WE DO / 05 ]</span></div>
+        <p class="svc-heading">Services<span class="period">.</span></p>
+
+        <div class="svc-grid">
+          <article class="svc-card" style="--glow:#95e46b">
+            <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1.2 12H6.2L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></div>
+            <h3>Shopify Development</h3>
+            <p>Building visually engaging and user-friendly Shopify stores tailored to each brand's needs. From custom storefront design to seamless shopping experiences, every detail is focused on usability, functionality, and conversions.</p>
+          </article>
+
+          <article class="svc-card" style="--glow:#b57bff">
+            <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3"/><path d="M8.5 9.5v5l4-2.5z"/></svg></div>
+            <h3>AI Video &amp; Motion</h3>
+            <p>Creating AI-powered films and motion visuals using Kling, Runway, Pika, and Luma. From the initial concept to final delivery, every project is shaped with a clear creative vision and attention to detail.</p>
+          </article>
+
+          <article class="svc-card" style="--glow:#ff9a4d">
+            <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.6 7.6"/><circle cx="11" cy="11" r="2"/></svg></div>
+            <h3>Design &amp; Presentation</h3>
+            <p>Designing for print, digital platforms, and presentations. From editorial-style pitch decks and brand guidelines to posters and packaging, every design balances visual appeal with clarity and purpose.</p>
+          </article>
+
+          <article class="svc-card" style="--glow:#4fd8c4">
+            <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
+            <h3>Creative Strategy</h3>
+            <p>Building strong brand positioning through audience understanding, creative direction, and thoughtful planning. Every idea is developed with a clear purpose, ensuring the final visual connects with the right audience.</p>
+          </article>
+
+          <article class="svc-card" style="--glow:#ff5fa8">
+            <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg></div>
+            <h3>Brand Storytelling</h3>
+            <p>Developing brand identities, narratives, and visual languages that communicate with clarity and consistency. Creating meaningful brand experiences that maintain their character across platforms and formats.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Responsive autoplay reel gallery -->
+      <section class="reels" id="reels" aria-labelledby="reelsTitle">
+        <div class="reels-header">
+          <div class="reels-heading-group">
+            <span class="reels-eyebrow">[ MOTION PORTFOLIO ]</span>
+            <h2 class="reels-section-title" id="reelsTitle">Our Edited <span>Reels.</span></h2>
+          </div>
+          <div class="reels-controls">
+            <button class="reels-arrow" id="reelsPrev" type="button" aria-label="Previous reels">←</button>
+            <button class="reels-arrow" id="reelsNext" type="button" aria-label="Next reels">→</button>
+          </div>
+        </div>
+        <div class="reels-track" id="reelsTrack" tabindex="0" aria-label="Portfolio video slider"></div>
+      </section>
+
+      <!-- BRANDS MARQUEE -->
+      <section class="brands" id="brands" aria-labelledby="brandsTitle">
+        <div class="brands-head">
+          <div class="section-bar"><h2 id="brandsTitle">[ TRUSTED BY ]</h2><span id="brandCount">[ BRANDS ]</span></div>
+          <div class="brands-intro">
+            <p class="brands-heading">Brands we've <span class="serif">worked</span> with<span class="period">.</span></p>
+            <span>FROM D2C STARTUPS TO ESTABLISHED RETAIL —<br>STORES WE'VE DESIGNED, BUILT AND GROWN.</span>
+          </div>
+        </div>
+        <div class="marquee" data-direction="left" data-speed="60"><div class="marquee-track"></div></div>
+        <div class="marquee" data-direction="right" data-speed="48"><div class="marquee-track"></div></div>
+      </section>
+
+      <!-- ===== LOGO DESIGN ===== -->
+      <section class="logos section" id="logos" aria-labelledby="logosTitle">
+        <div class="section-bar"><h2 id="logosTitle">[ LOGO DESIGN ]</h2><span id="logoCount">[ IDENTITIES ]</span></div>
+        <div class="logos-intro">
+          <p class="logos-heading">Marks we've <span class="serif">crafted</span><span class="period">.</span></p>
+          <span>FROM NAME TO MARK —<br>LOGOS &amp; IDENTITIES WE'VE DESIGNED FROM SCRATCH.</span>
+        </div>
+        <div class="logo-grid" id="logoGrid"></div>
+
+        <!-- Logo slider (logos 6–10) -->
+        <div class="logo-slider" id="logoSlider" hidden>
+          <div class="ls-head">
+            <span class="ls-label">[ MORE IDENTITIES ]</span>
+            <div class="ls-controls">
+              <span class="ls-count" id="lsCount" aria-hidden="true"></span>
+              <button class="sc-arrow" id="lsPrev" type="button" aria-label="Previous logos">←</button>
+              <button class="sc-arrow" id="lsNext" type="button" aria-label="Next logos">→</button>
+            </div>
+          </div>
+          <div class="ls-track" id="lsTrack" tabindex="0" aria-label="More logo projects"></div>
+          <div class="ls-progress" aria-hidden="true"><i id="lsProgress"></i></div>
+        </div>
+        <div class="project-outro"><span>EVERY BRAND STARTS WITH A MARK. MAKE YOURS COUNT.</span><a href="#contact">NEED A LOGO? LET'S TALK ↗</a></div>
+      </section>
+
+      <section class="approach" id="approach" aria-label="Our approach"><div class="ambient-orb orb-one"></div><div class="ambient-orb orb-two"></div><div class="ambient-orb orb-three"></div><div class="approach-inner"><span>[ OUR PHILOSOPHY ]</span><h2>GOOD DESIGN<br>IS GOOD BUSINESS.</h2><p>Creative enough to make an impression.<br>Functional enough to drive action.</p></div></section>
+
+      <section class="contact section" id="contact" aria-labelledby="contactTitle"><div class="contact-top"><span>[ LET'S COLLABORATE ]</span><span>HAVE A STORE IN MIND?</span></div><h2 id="contactTitle">LET'S BUILD<br><span>SOMETHING</span><br>GREAT<span class="period">.</span></h2><div class="contact-bottom"><p>Have a new idea, an existing Shopify store, or a redesign in mind? Tell us about it.</p><a class="contact-button" id="emailLink" href="mailto:hello@yourstudio.com?subject=Shopify%20Project%20Enquiry">START A PROJECT <span>↗</span></a></div></section>
+    </main>
+    <footer><a href="#top">[ YOUR STUDIO ]</a><span>SHOPIFY DESIGN + DEVELOPMENT</span><div><a id="footerEmail" href="mailto:Graphicpham@gmail.com.com">EMAIL ↗</a><a id="instagramLink" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a><a href="#top">BACK TO TOP ↑</a></div><small>© <span id="year"></span> YOUR STUDIO. ALL RIGHTS RESERVED.</small></footer>
+  </div>
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle"><button class="dialog-close" id="dialogClose" aria-label="Close project">✕</button><div class="dialog-art" id="dialogArt"></div><div class="dialog-content"><div class="dialog-eyebrow" id="dialogCategory"></div><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><div class="dialog-actions"><a id="dialogVisit" href="#" target="_blank" rel="noopener noreferrer">VISIT WEBSITE ↗</a><span id="dialogServices"></span></div></div></dialog>
+</body>
+</html>
