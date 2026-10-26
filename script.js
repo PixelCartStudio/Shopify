@@ -685,25 +685,25 @@ const BRANDS = [
 const LOGOS = [
   // ---- GRID (1–5) — 1st one = big featured card ----
   {
-    name: 'Brand Name', category: 'CATEGORY', year: '2026',
+    name: 'THE SHUTTER SHOTS', category: '', year: '2026',
     logo: 'logo/shutter 6-01.jpg',
     deliverables: 'Logo · Colour palette · Typography · Brand guidelines',
     colors: ['white', '#2b2a26', '#c56b4a', '#8fa48a'],
     url: ''
   },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/LOGOS (3).png',         url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/3.png',         url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/LOGOS.png',     url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/5.png',         url: '' },
+  { name: 'GENZBEE', category: '', logo: 'logo/LOGOS (3).png',         url: '' },
+  { name: 'MY MINDORA', category: '', logo: 'logo/3.png',         url: '' },
+  { name: 'SANTA BLING', category: '', logo: 'logo/LOGOS.png',     url: '' },
+  { name: 'HARMONY', category: '', logo: 'logo/5.png',         url: '' },
   // ---- SLIDER (6 onwards) ----
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/6.png',         url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/7.png',         url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/8.png',         url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/9.png',         url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/LOGOS (2).png', url: '' },
-  { name: 'Brand Name', category: 'CATEGORY', logo: 'logo/LOGOS (5).png', url: '' }
+  { name: 'KOVE', category: '', logo: 'logo/6.png',         url: '' },
+  { name: 'AYAYA', category: '', logo: 'logo/7.png',         url: '' },
+  { name: 'NEXTRENDS', category: '', logo: 'logo/8.png',         url: '' },
+  { name: 'DREAM DESTINATION', category: '', logo: 'logo/9.png',         url: '' },
+  { name: 'WISSAH', category: '', logo: 'logo/LOGOS (2).png', url: '' },
+  { name: 'VENUS STONE', category: '', logo: 'logo/1.png', url: '' }
 ];
-const LOGO_GRID_COUNT = 5; // how many logos go in the grid; the rest go in the slider
+const LOGO_GRID_COUNT = 5; // how many logos g-o in the grid; the rest go in the slider
 
 (function initLogos() {
   const section = document.getElementById('logos');
